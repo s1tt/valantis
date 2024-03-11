@@ -1,0 +1,14 @@
+.select {
+  width: 100%;
+  border: 2px solid var(--color-medium-gray);
+  padding: 8px 16px;
+  font-size: 16px;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+  cursor: pointer;
+}
+
+.select:focus {
+  border: 2px solid var(--color-true-gray);
+  outline: none;
+}

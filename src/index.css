@@ -1,0 +1,27 @@
+:root {
+  --color-black: #1b1d1f;
+  --color-white: #ffffff;
+  --color-dark-gray: #495057;
+  --color-true-gray: #7f878f;
+  --color-medium-gray: #b2b9c0;
+  --color-light-gray: #e2e5e9;
+  --color-ultra-light-gray: #f8f9fa;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--color-dark-gray);
+  background-color: var(--color-true-gray);
+  background-color: var(--color-medium-gray);
+  background-color: var(--color-light-gray);
+  background-color: var(--color-ultra-light-gray);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

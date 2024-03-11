@@ -1,0 +1,27 @@
+.card {
+  border: 2px solid #b2b9c0;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.id {
+  color: #b2b9c0;
+  margin-bottom: 5px;
+}
+
+.price {
+  text-align: end;
+}

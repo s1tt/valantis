@@ -1,0 +1,35 @@
+.label {
+  display: block;
+  padding: 15px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+  transition: all 0.3s ease;
+  width: 150px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.label:hover {
+  background-color: var(--color-true-gray);
+}
+
+.input:checked + .label {
+  background-color: var(--color-black);
+  cursor: default;
+}
+
+.input:disabled + .label {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.input {
+  position: absolute;
+  left: -999999px;
+  display: none;
+}

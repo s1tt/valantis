@@ -1,0 +1,16 @@
+.btn {
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  border: none;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+  text-wrap: nowrap;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
